@@ -51,6 +51,7 @@ public class CriaFigurinha {
 
         graphics.drawString("muito Legal", 15, novaAltura - 100);
 
+        System.out.println(nomeArquivo);
         // salvar a imagem em um arquivo
         ImageIO.write(novaImg, "png", new File(nomeArquivo));
     }
